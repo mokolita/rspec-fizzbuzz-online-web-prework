@@ -11,13 +11,9 @@ def fizzbuzz(int)
   end
   
   if int % 3 == 0 
+    int % 3 == 0 
     return "FizzBuzz"
-  end
-  
-  if int % 5 == 0 
-    return "FizzBuzz"  
   end
   
   
 end
-fizzbuzz(3)
