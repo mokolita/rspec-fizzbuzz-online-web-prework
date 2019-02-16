@@ -8,11 +8,11 @@ def fizzbuzz(int)
     return "FizzBuzz"
   end
   
-  elsif int % 3 == 0
+  if int % 3 == 0
    return "Fizz"
   end
   
-  else int % 5 == 0
+  if int % 5 == 0
    return "Buzz"
   end
 end
